@@ -1,0 +1,10 @@
+name: Nginx Server
+version: "1.12"
+description: Nginx
+roles: [nginx]
+nginx:
+   name: nginx server
+   image:
+       name: nginx
+       version: 1.12-alpine
+       engine: docker
